@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="37.803137">
+<testcase classname="New user Registration" name="User Navigates to signup page clicking on signup button" time="12.325702">
+<system-out><![CDATA[Given I want to give the url in  browser "http://elearningm1.upskills.in/"..passed
+When I enter the url login/home page should be displayed with signup button.passed
+And I click on signup button................................................passed
+Then I verify the "success" in step.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="New user Registration" name="user clicks on signup button and fill the form" time="6.370808">
+<system-out><![CDATA[Given I should  click on the signup button..................................passed
+When I click on sign up button registartion page gets displayed.............passed
+And I enter all the mandatory fields........................................passed
+And I enter  First name.....................................................passed
+And I enter Last name.......................................................passed
+And I enter e-mail..........................................................passed
+And I enter Username "signup128"............................................passed
+And I enter Pass............................................................passed
+And I enter Confirm password................................................passed
+Then I click on register link...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="New user Registration" name="user clicks on dropdown to validate the profile details" time="2.17398">
+<system-out><![CDATA[Given I should  click on the dropdown button................................passed
+When I click on dropdown profile details gets displayed.....................passed
+And I view first and last name..............................................passed
+And I view email address....................................................passed
+Then I click on home page...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="New user Registration" name="user clicks on compose link to send email" time="16.932647">
+<system-out><![CDATA[Given I should  click on the home page section..............................passed
+When click on compose option................................................passed
+And I view new window opened................................................passed
+And I enter details in send to field........................................passed
+And I enter subject.........................................................passed
+And I enter Message.........................................................passed
+Then I click on send message................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
